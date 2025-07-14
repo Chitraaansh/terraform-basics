@@ -19,9 +19,3 @@ This Terraform project provisions:
 | `aws_security_group` | Allows SSH access (port 22) from anywhere    |
 
 ---
-
-## 📁 File Structure
-
-├── main.tf # Terraform configuration
-├── myfile.txt # File to upload to S3 and copy to EC2
-├── terraform-key.pem (local) # Your SSH private key (NOT to be pushed to GitHub)
